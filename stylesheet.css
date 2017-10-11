@@ -1,151 +1,168 @@
-    body {
-        margin: 0;
-        background-image: url(picture_files/background_vintage.jpg);
-        background-repeat: repeat;
-        background-size: contain;
-    }
-    /** header**/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    header {
-        position: fixed;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65)0%, rgba(0, 0, 0, 0) 100%);
-        width: 100vw;
-    }
+body {
+    margin: 0;
+    background-image: url(picture_files/background_vintage.jpg);
+    background-repeat: no-repeat;
+}
 
-    header h1 {
-        background-color: transparent;
-    }
 
-    header nav {
-        font-family: 'helvetica neue regular', sans-serif;
-        text-align: right;
-        margin: 0 0 0 0;
-        background-color: transparent;
-        font-size: 1.5em;
-    }
+/** header**/
 
+header {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    width: 100vw;
+}
+
+header h1 {
+    background-color: transparent;
+}
+
+header nav {
+    font-family: 'helvetica neue regular', sans-serif;
+    text-align: right;
+    margin: 0 0 0 0;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 4px;
+    display: block;
+    background-color: transparent;
+}
+
+header nav a:hover {
+    color: #e8a53c;
+}
+
+@media screen and (min-width: 676px) {
     header nav a {
-        text-decoration: none;
-        color: white;
-        padding-left: 4px;
-        display: block;
-        background-color: transparent;
+        display: inline-block;
     }
+}
 
-    header nav a:hover {
-        color: #e8a53c;
-    }
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-    @media screen and (min-width: 676px) {
-        header nav a {
-            display: inline-block;
-        }
-    }
 
-    .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    /** splash **/
+/** splash **/
 
+#splash {
+    width: 100vw;
+    height: 167vw;
+    /* vi skal finde højden, så det ikke bliver skåret af: 627H/375B*100(den nye bredde)=167vw */
+    background-image: url(splash/mobile_portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#splash .logo {
+    padding: 15px;
+    width: 15vw;
+    box-sizing: content-box;
+}
+
+#splash .logo img {
+    width: 100%;
+}
+
+@media screen and (min-width: 376px) and (orientation: portrait) {
     #splash {
-        width: 100vw;
-        height: 167vw;
-        /* vi skal finde højden, så det ikke bliver skåret af: 627H/375B*100(den nye bredde)=167vw */
-        background-image: url(splash/mobile_portrait.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
+        background-image: url(splash/tablet-portrait.jpg);
+        height: 133vw;
     }
+}
 
-    #splash .logo {
-        padding: 15px;
-        width: 15vw;
-        box-sizing: content-box;
+@media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/mobile_landscape.jpg);
+        height: 59vw;
     }
+}
 
-    #splash .logo img {
-        width: 100%;
+@media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/tablet_lanscape.jpg);
+        height: 75vw;
     }
+}
 
-    @media screen and (min-width: 376px) and (orientation: portrait) {
-        #splash {
-            background-image: url(splash/tablet-portrait.jpg);
-            height: 133vw;
-        }
+@media screen and (min-width: 1025px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/desktop.jpg);
+        height: 56vw;
     }
+}
 
-    @media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
-        #splash {
-            background-image: url(splash/mobile_landscape.jpg);
-            height: 59vw;
-        }
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url(splash/desktop_retina.jpg);
+        height: 56vw;
     }
+}
 
-    @media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
-        #splash {
-            background-image: url(splash/tablet_lanscape.jpg);
-            height: 75vw;
-        }
-    }
 
-    @media screen and (min-width: 1025px) and (orientation: landscape) {
-        #splash {
-            background-image: url(splash/desktop.jpg);
-            height: 56vw;
-        }
-    }
+/** om **/
 
-    @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
-    screen and (min-resolution: 192dpi) and (min-width: 1025px) {
-        #splash {
-            background-image: url(splash/desktop_retina.jpg);
-            height: 56vw;
-        }
-    }
-    /** om **/
+section#om {
+    padding: 30px;
+}
 
-    section#om {
-        padding: 30px;
-    }
+.column_first {}
 
-    .column_first {}
+.column_second {}
 
-    .column_second {}
+.column_content {}
 
-    .column_content {}
+.content_om {}
 
-    .content_om {}
+.content_smiley {}
 
-    .content_smiley {}
-    /** sortiment **/
 
-    section#sortiment {}
+/** sortiment **/
 
-    .column_first {}
+section#sortiment {}
 
-    .column_second {}
+.column_first {}
 
-    .column_content {}
+.column_second {}
 
-    .content_om {}
+.column_content {}
 
-    .content_smiley {}
+.content_om {}
 
-    .content_flaske {}
+.content_smiley {}
 
-    .content_fad {}
-    /** øl smagning **/
+.content_flaske {}
 
-    section#oel_smagning {}
+.content_fad {}
 
-    .column_wide {}
 
-    .column_narrow {}
-    /** kontakt */
+/** øl smagning **/
 
-    section#kontakt {}
+section#oel_smagning {}
 
-    .column_wide {}
+.column_wide {}
 
-    .column_narrow {}
+.column_narrow {}
+
+
+/** kontakt */
+
+section#kontakt {}
+
+.column_wide {}
+
+.column_narrow {}
