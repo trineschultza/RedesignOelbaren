@@ -34,7 +34,7 @@
     }
 
     header nav a:hover {
-        color: black;
+        color: #e8a53c;
     }
 
     @media screen and (min-width: 676px) {
