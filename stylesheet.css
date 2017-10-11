@@ -135,6 +135,14 @@ h3 {
     color: white;
 }
 
+h4 {
+    font-family: times new roman regular, serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: white;
+}
+
 p {
     font-family: helvetica neue bold, sans-serif;
     font-weight: 400;
