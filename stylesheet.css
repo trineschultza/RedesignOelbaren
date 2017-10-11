@@ -57,3 +57,19 @@
     .content_om {}
 
     .content_smiley {}
+    /** sortiment **/
+
+    #sortiment .sectionwrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column_first {}
+
+    .column_second {}
+
+    .column_content {}
+
+    .content_flaske {}
+
+    .content_fad {}
