@@ -44,11 +44,16 @@
         }
     }
 
-    /** om **/
-
-    #om .sectionwrapper {
+    .sectionwrapper {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /** om **/
+
+    section#om {
+        padding: 30px;
     }
 
     .column_first {}
@@ -63,10 +68,7 @@
 
     /** sortiment **/
 
-    #sortiment .sectionwrapper {
-        > > > > > > > origin/master display: flex;
-        flex-wrap: wrap;
-    }
+    section#sortiment {}
 
     .column_first {}
 
@@ -74,12 +76,10 @@
 
     .column_content {}
 
-    <<<<<<< HEAD .content_om {}
+    .content_om {}
 
     .content_smiley {}
 
-    =======.content_flaske {}
+    .content_flaske {}
 
     .content_fad {}
-
-    > > > > > > > origin/master
