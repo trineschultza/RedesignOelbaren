@@ -10,6 +10,10 @@ body {
     background-repeat: no-repeat;
 }
 
+mark {
+    background-color: transparent;
+    color: #e8a53c;
+}
 
 /** header**/
 
@@ -116,7 +120,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 /** Splash slut **/
 
-
 /** typografien **/
 
 h2 {
@@ -153,7 +156,6 @@ p {
 
 
 /** typografien slut **/
-
 
 /** om **/
 
