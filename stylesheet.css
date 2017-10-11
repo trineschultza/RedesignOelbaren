@@ -4,6 +4,7 @@
         background-repeat: repeat;
         background-size: contain;
     }
+
     /** header**/
 
     header {
@@ -34,6 +35,7 @@
 
     header nav a:hover {
         color: black;
+
     }
 
     @media screen and (min-width: 676px) {
@@ -41,6 +43,7 @@
             display: inline-block;
         }
     }
+
     /** om **/
 
     #om .sectionwrapper {
@@ -57,3 +60,26 @@
     .content_om {}
 
     .content_smiley {}
+
+    /** sortiment **/
+
+    #sortiment .sectionwrapper {
+        > > > > > > > origin/master display: flex;
+        flex-wrap: wrap;
+    }
+
+    .column_first {}
+
+    .column_second {}
+
+    .column_content {}
+
+    <<<<<<< HEAD .content_om {}
+
+    .content_smiley {}
+
+    =======.content_flaske {}
+
+    .content_fad {}
+
+    > > > > > > > origin/master
