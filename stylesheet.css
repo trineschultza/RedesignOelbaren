@@ -4,7 +4,6 @@
         background-repeat: repeat;
         background-size: contain;
     }
-
     /** header**/
 
     header {
@@ -48,7 +47,6 @@
         flex-wrap: wrap;
         width: 100%;
     }
-
     /** splash **/
 
     #splash {
@@ -105,7 +103,6 @@
             height: 56vw;
         }
     }
-
     /** om **/
 
     section#om {
@@ -121,7 +118,6 @@
     .content_om {}
 
     .content_smiley {}
-
     /** sortiment **/
 
     section#sortiment {}
@@ -139,3 +135,10 @@
     .content_flaske {}
 
     .content_fad {}
+    /** øl smagning **/
+
+    section#oel_smagning {}
+
+    .column_wide {}
+
+    .column_narrow {}
