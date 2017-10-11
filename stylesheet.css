@@ -4,6 +4,7 @@
         background-repeat: repeat;
         background-size: contain;
     }
+
     /** header**/
 
     header {
@@ -47,6 +48,7 @@
         flex-wrap: wrap;
         width: 100%;
     }
+
     /** splash **/
 
     #splash {
@@ -56,6 +58,16 @@
         background-image: url(splash/mobile_portrait.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+
+    #splash .logo {
+        padding: 15px;
+        width: 15vw;
+        box-sizing: content-box;
+    }
+
+    #splash .logo img {
+        width: 100%;
     }
 
     @media screen and (min-width: 376px) and (orientation: portrait) {
@@ -93,6 +105,7 @@
             height: 56vw;
         }
     }
+
     /** om **/
 
     section#om {
@@ -108,6 +121,7 @@
     .content_om {}
 
     .content_smiley {}
+
     /** sortiment **/
 
     section#sortiment {}
