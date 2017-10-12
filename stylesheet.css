@@ -124,6 +124,14 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 /** typografien **/
 
+h1 {
+    font-family: times new roman bold, serif;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: white;
+}
+
 h2 {
     font-family: times new roman bold, serif;
     font-weight: 700;
