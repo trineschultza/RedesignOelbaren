@@ -119,7 +119,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 }
 
 
-/** Splash slut **/
+/** splash slut **/
 
 
 /** typografien **/
@@ -195,6 +195,9 @@ section#om {
 }
 
 
+/** om slut **/
+
+
 /** sortiment **/
 
 section#sortiment {}
@@ -220,6 +223,9 @@ section#sortiment {}
 }
 
 
+/** sortiment slut **/
+
+
 /** øl smagning **/
 
 section#oel_smagning {}
@@ -233,6 +239,9 @@ section#oel_smagning {}
 }
 
 
+/** øl smagning slut **/
+
+
 /** kontakt */
 
 section#kontakt {}
@@ -244,3 +253,6 @@ section#kontakt {}
 .column_narrow {
     flex-basis: 100px;
 }
+
+
+/** kontakt slut **/
