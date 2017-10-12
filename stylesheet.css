@@ -13,7 +13,7 @@
 }
 
 body {
-    margin: 0 0 5vw 0;
+    margin: 0;
     padding: 0;
     background-image: url(picture_files/background_vintage.jpg);
     background-repeat: no-repeat;
@@ -75,6 +75,7 @@ header nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding: 0 5vw 5vw 5vw;
 }
 
 
@@ -268,7 +269,7 @@ section#sortiment {}
 
 #sortiment .column_first {
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 5vw, 5vw, 5vw, 5vw;
+    padding: 5vw 5vw 5vw 5vw;
 }
 
 #sortiment .column_second {
@@ -281,18 +282,24 @@ section#sortiment {}
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5vw 0 5vw 0;
-    background-color: rgba(0, 0, 0, 0.6)
+    padding: 2vw 0 5vw 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #sortiment .content_flaske {
     flex-basis: 100px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 3px;*/
 }
 
 #sortiment .content_flaske a img:hover {}
 
 #sortiment .content_fad {
     flex-basis: 100px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 3px;*/
 }
 
 
@@ -302,6 +309,12 @@ section#sortiment {}
 /** øl smagning **/
 
 section#oel_smagning {}
+
+#oel_smagning .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 #oel_smagning .column_wide {
     flex-basis: 100px;
@@ -313,6 +326,7 @@ section#oel_smagning {}
 #oel_smagning .column_narrow {
     flex-basis: 500px;
     flex-grow: 1;
+    padding-left: 5vw;
 }
 
 #oel_smagning .column_narrow img {
