@@ -43,11 +43,14 @@ header h1 {
 }
 
 header nav {
-    font-family: 'helvetica neue regular', sans-serif;
+    font-family: 'helvetica neue', sans-serif;
+    font-style: normal;
+    text-transform: lowercase;
+    letter-spacing: 2px;
     text-align: right;
     margin: 3vw 5vw 0 0;
     background-color: transparent;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 header nav a {
@@ -139,23 +142,26 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 /** typografien **/
 
 h1 {
-    font-family: times new roman bold, serif;
+    font-family: 'times new roman', serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 2em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: white;
 }
 
 h2 {
-    font-family: times new roman bold, serif;
+    font-family: 'times new roman', serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 2em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: white;
 }
 
 h3 {
-    font-family: times new roman regular, serif;
+    font-family: 'times new roman', serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 1.5em;
     letter-spacing: 1px;
@@ -163,7 +169,8 @@ h3 {
 }
 
 h4 {
-    font-family: times new roman regular, serif;
+    font-family: 'times new roman', serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 1.2em;
     letter-spacing: 1px;
@@ -171,7 +178,8 @@ h4 {
 }
 
 p {
-    font-family: helvetica neue bold, sans-serif;
+    font-family: 'helvetica neue', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 1px;
@@ -179,7 +187,7 @@ p {
 }
 
 li {
-    font-family: helvetica neue bold, sans-serif;
+    font-family: 'helvetica neue light', sans-serif;
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 1px;
