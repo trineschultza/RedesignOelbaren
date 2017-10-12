@@ -90,13 +90,13 @@ header nav a:hover {
     background-size: 100%;
 }
 
-#splash .logo {
-    padding: 15px;
+#splash .ikon {
+    padding: 50px;
     width: 15vw;
     box-sizing: content-box;
 }
 
-#splash .logo img {
+#splash .ikon img {
     width: 100%;
 }
 
