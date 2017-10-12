@@ -250,7 +250,9 @@ ul {
 
 section#sortiment {}
 
-.column_first {}
+.column_first {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 .column_second {
     flex-basis: 100px;
@@ -291,7 +293,7 @@ section#oel_smagning {}
 }
 
 .column_narrow img {
-    width: 40vw;
+    width: 75vw;
     height: auto;
 }
 
