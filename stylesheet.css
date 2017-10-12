@@ -90,7 +90,7 @@ header nav a:hover {
     background-size: 100%;
 }
 
-#splash .ikon {
+.ikon {
     padding: 50px;
     width: 15vw;
     box-sizing: content-box;
