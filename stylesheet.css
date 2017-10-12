@@ -175,23 +175,29 @@ section#om {
 }
 
 .column_first {
-    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .column_second {
-    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .column_content {
+    display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .content_om {
+    flex-grow: 0.5;
     flex-basis: 100px;
+    justify-content: space-around;
 }
 
 .content_smiley {
-    flex-basis: 100px;
+    flex-grow: 0.5;
+    flex-direction: 100px;
+    justify-content: space-around;
 }
 
 
@@ -212,6 +218,8 @@ section#sortiment {}
 
 .column_content {
     flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
 }
 
 .content_flaske {
