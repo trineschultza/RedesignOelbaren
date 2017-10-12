@@ -31,6 +31,7 @@ a {
     color: #e8a53c;
 }
 
+
 /** header**/
 
 header {
@@ -46,7 +47,7 @@ header h1 {
 header nav {
     font-family: 'helvetica neue regular', sans-serif;
     text-align: right;
-    margin: 0 5vw 0 0;
+    margin: 3vw 5vw 0 0;
     background-color: transparent;
     font-size: 1.5em;
 }
@@ -255,6 +256,8 @@ section#sortiment {}
 .content_flaske {
     flex-basis: 100px;
 }
+
+.content_flaske a img:hover {}
 
 .content_fad {
     flex-basis: 100px;
