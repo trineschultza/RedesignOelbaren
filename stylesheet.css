@@ -261,6 +261,10 @@ section#oel_smagning {}
     flex-grow: 1;
 }
 
+.column_narrow img {
+    width: 70vw;
+    height: auto;
+}
 
 /** øl smagning slut **/
 
