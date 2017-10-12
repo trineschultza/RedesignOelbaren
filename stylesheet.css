@@ -15,6 +15,7 @@ mark {
     color: #e8a53c;
 }
 
+
 /** header**/
 
 header {
@@ -120,6 +121,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 /** Splash slut **/
 
+
 /** typografien **/
 
 h2 {
@@ -157,55 +159,80 @@ p {
 
 /** typografien slut **/
 
+
 /** om **/
 
 section#om {
     padding: 30px;
 }
 
-.column_first {}
+.column_first {
+    flex-basis: 100px;
+}
 
-.column_second {}
+.column_second {
+    flex-basis: 100px;
+}
 
-.column_content {}
+.column_content {
+    flex-wrap: wrap;
+}
 
-.content_om {}
+.content_om {
+    flex-basis: 100px;
+}
 
-.content_smiley {}
+.content_smiley {
+    flex-basis: 100px;
+}
 
 
 /** sortiment **/
 
 section#sortiment {}
 
-.column_first {}
+.column_first {
+    flex-basis: 100px;
+}
 
-.column_second {}
+.column_second {
+    flex-basis: 100px;
+}
 
-.column_content {}
+.column_content {
+    flex-wrap: wrap;
+}
 
-.content_om {}
+.content_flaske {
+    flex-basis: 100px;
+}
 
-.content_smiley {}
-
-.content_flaske {}
-
-.content_fad {}
+.content_fad {
+    flex-basis: 100px;
+}
 
 
 /** øl smagning **/
 
 section#oel_smagning {}
 
-.column_wide {}
+.column_wide {
+    flex-basis: 100px;
+}
 
-.column_narrow {}
+.column_narrow {
+    flex-basis: 100px;
+}
 
 
 /** kontakt */
 
 section#kontakt {}
 
-.column_wide {}
+.column_wide {
+    flex-basis: 100px;
+}
 
-.column_narrow {}
+.column_narrow {
+    flex-basis: 100px;
+}
