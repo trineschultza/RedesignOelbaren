@@ -293,13 +293,12 @@ section#oel_smagning {}
 }
 
 .column_narrow {
-    flex-basis: 100px;
+    flex-basis: 500px;
     flex-grow: 1;
 }
 
 .column_narrow img {
-    width: 75vw;
-    height: auto;
+    width: 100%;
 }
 
 
