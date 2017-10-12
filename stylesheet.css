@@ -137,7 +137,6 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 /** splash slut **/
 
-
 /** typografien **/
 
 h1 {
@@ -183,7 +182,6 @@ li {
 
 
 /** typografien slut **/
-
 
 /** om **/
 
@@ -234,7 +232,6 @@ li {
 
 /** om slut **/
 
-
 /** sortiment **/
 
 section#sortiment {}
@@ -264,7 +261,6 @@ section#sortiment {}
 
 /** sortiment slut **/
 
-
 /** øl smagning **/
 
 section#oel_smagning {}
@@ -286,7 +282,6 @@ section#oel_smagning {}
 
 
 /** øl smagning slut **/
-
 
 /** kontakt **/
 
@@ -311,7 +306,6 @@ section#kontakt {}
     border: 10px solid black;
 } **/
 
-
 /* parent */
 
 #kontakt .sectionwrapper {
@@ -326,6 +320,7 @@ section#kontakt {}
 #kontakt .column_narrow {
     flex-grow: 0;
     flex-basis: 400px;
+    border: 1px solid black;
 }
 
 
@@ -334,6 +329,7 @@ section#kontakt {}
 #kontakt .column_wide {
     flex-grow: 1;
     flex-basis: 400px;
+    border: 1px solid black;
 }
 
 
