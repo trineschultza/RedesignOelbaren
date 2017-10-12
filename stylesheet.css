@@ -200,7 +200,7 @@ section#om {
 
 .content_om {
     flex-grow: 0.5;
-    flex-basis: 100px;
+    flex-basis: 400px;
     justify-content: space-around;
 }
 
