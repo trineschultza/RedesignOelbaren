@@ -156,7 +156,8 @@ h4 {
     color: white;
 }
 
-p {
+p,
+li {
     font-family: helvetica neue bold, sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -208,9 +209,7 @@ section#om {
 
 section#sortiment {}
 
-.column_first {
-    flex-basis: 100px;
-}
+.column_first {}
 
 .column_second {
     flex-basis: 100px;
@@ -240,26 +239,38 @@ section#oel_smagning {}
 
 .column_wide {
     flex-basis: 100px;
+    flex-grow: 2;
 }
 
 .column_narrow {
     flex-basis: 100px;
+    flex-grow: 1;
 }
 
 
 /** øl smagning slut **/
 
 
-/** kontakt */
+/** kontakt **/
 
 section#kontakt {}
 
+.column_content {
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    border: 10px solid black;
+}
+
 .column_wide {
-    flex-basis: 100px;
+    flex-grow: 2;
+    border: 10px solid black;
 }
 
 .column_narrow {
     flex-basis: 100px;
+    flex-grow: 1;
+    border: 10px solid black;
 }
 
 
