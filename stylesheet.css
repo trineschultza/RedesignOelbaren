@@ -91,12 +91,12 @@ header nav a:hover {
 }
 
 .ikon {
-    padding: 50px;
-    width: 15vw;
+    padding: 2vw 2vw 2vw 3vw;
+    width: 7vw;
     box-sizing: content-box;
 }
 
-#splash .ikon img {
+.ikon img {
     width: 100%;
 }
 
