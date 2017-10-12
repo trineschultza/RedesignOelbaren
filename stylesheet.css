@@ -13,7 +13,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 0 5vw 0;
     padding: 0;
     background-image: url(picture_files/background_vintage.jpg);
     background-repeat: no-repeat;
@@ -347,6 +347,7 @@ section#kontakt {}
     display: flex;
     flex-wrap: wrap;
     border: 1px;
+    justify-content: space-around
 }
 
 
