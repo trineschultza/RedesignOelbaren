@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 #om,
@@ -254,8 +252,9 @@ ul {
 
 section#sortiment {}
 
-.column_first {
+.sortiment_column_first {
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 5vw, 2vw, 5vw, 2vw;
 }
 
 .column_second {
