@@ -91,50 +91,6 @@ header nav a:hover {
     background-size: 100%;
 }
 
-<<<<<<< HEAD
-=======
-@media screen and (min-width: 376px) and (orientation: portrait) {
-    #splash {
-        background-image: url(splash/tablet-portrait.jpg);
-        height: 133vw;
-    }
-}
-
-@media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
-    #splash {
-        background-image: url(splash/mobile_landscape.jpg);
-        height: 59vw;
-    }
-}
-
-@media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
-    #splash {
-        background-image: url(splash/tablet_lanscape.jpg);
-        height: 75vw;
-    }
-}
-
-@media screen and (min-width: 1025px) and (orientation: landscape) {
-    #splash {
-        background-image: url(splash/desktop.jpg);
-        height: 56vw;
-    }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
-screen and (min-resolution: 192dpi) and (min-width: 1025px) {
-    #splash {
-        background-image: url(splash/desktop_retina.jpg);
-        height: 56vw;
-    }
-}
-
-
-/** splash slut **/
-
-/** ikon **/
-
->>>>>>> origin/master
 .ikon {
     padding: 2vw 2vw 2vw 3vw;
     width: 7vw;
