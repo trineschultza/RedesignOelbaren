@@ -90,16 +90,6 @@ header nav a:hover {
     background-size: 100%;
 }
 
-.ikon {
-    padding: 2vw 2vw 2vw 3vw;
-    width: 7vw;
-    box-sizing: content-box;
-}
-
-.ikon img {
-    width: 100%;
-}
-
 @media screen and (min-width: 376px) and (orientation: portrait) {
     #splash {
         background-image: url(splash/tablet-portrait.jpg);
@@ -138,6 +128,59 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 
 /** splash slut **/
+
+
+/** ikon **/
+
+.ikon {
+    padding: 2vw 2vw 2vw 3vw;
+    width: 7vw;
+    box-sizing: content-box;
+}
+
+.ikon img {
+    width: 100%;
+}
+
+@media screen and (min-width: 376px) and (orientation: portrait) {
+    .ikon img {
+        background-image: url(splash/tablet-portrait.jpg);
+        height: 100px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 627px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/mobile_landscape.jpg);
+        height: 59vw;
+    }
+}
+
+@media screen and (min-width: 628px) and (max-width: 1024px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/tablet_lanscape.jpg);
+        height: 75vw;
+    }
+}
+
+@media screen and (min-width: 1025px) and (orientation: landscape) {
+    #splash {
+        background-image: url(splash/desktop.jpg);
+        height: 56vw;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1025px),
+screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    #splash {
+        background-image: url(splash/desktop_retina.jpg);
+        height: 56vw;
+    }
+}
+
+
+/** ikon slut **/
 
 
 /** typografien **/
@@ -185,7 +228,7 @@ h4 {
 p {
     font-family: 'helvetica neue', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1em;
     letter-spacing: 1px;
     color: white;
